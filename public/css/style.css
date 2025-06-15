@@ -1,0 +1,115 @@
+/* Background */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #c04e87, #8e1963);
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Centered Card */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 600px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Rows */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center; 
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  width: 48%;
+}
+
+.input-group label {
+  width: 40%;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Gender Section */
+.gender-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.gender-group label {
+  font-weight: bold; 
+  margin-right: 15px;
+}
+
+.gender-options {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.gender-options label {
+  font-weight: normal; 
+}
+
+
+/* Button Section */
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.cancel {
+  background: #f44336;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit {
+  background: linear-gradient(to right, #bc469c, #7e155b);
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
